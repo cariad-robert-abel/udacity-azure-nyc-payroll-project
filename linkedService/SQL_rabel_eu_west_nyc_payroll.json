@@ -1,0 +1,15 @@
+{
+	"name": "SQL_rabel_eu_west_nyc_payroll",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "rabel-eu-west.database.windows.net",
+			"database": "db_nycpayroll",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}

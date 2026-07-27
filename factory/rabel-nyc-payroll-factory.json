@@ -1,0 +1,15 @@
+{
+	"name": "rabel-nyc-payroll-factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "539f7d4f-c036-4aaa-9b61-970c68ce43ac",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
